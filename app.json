@@ -5,7 +5,9 @@
         "expo-camera",
         {
           "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
-        }
+        },
+        "expo-image-picker",
+        { "photoPermission": "The app acesss your phtot" }
       ]
     ],
     "name": "NavigationScreens",

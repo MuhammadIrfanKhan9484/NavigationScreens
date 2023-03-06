@@ -85,7 +85,7 @@ function Registration({ navigation, route }) {
         }
       })
       .catch((error) => {
-        // alert('sory i cant take pic')
+        alert("sory i cant take pic");
         alert(error.message);
       });
   };
